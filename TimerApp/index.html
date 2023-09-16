@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> Pomodro Timer App </title>
+	<link rel="stylesheet" type="text/css" href="timer.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+
+   <div id="login">
+  	 <h1>Login</h1>
+  	  <input type="email" id="email" placeholder="Email"><br>
+      <input type="password" id="password" placeholder="Password"><br>
+      <button id="login-button">Login with Google </button>
+   </div>
+
+   
+   <div id="timer-container" style="display: none;">
+   	   <div class="timer">
+   	 	  <div id="timer-label">Work</div>
+          <div id="timer-left">25:00</div>
+   	   </div>
+
+   	   <div class="controls">
+   		   <button id="start-button">Start</button>
+   		   <button id="reset-button">Reset</button>
+   		<!-- <button id="pause-button">Pause</button> -->
+   	   </div>
+   </div>
+
+  
+   
+   <div id="break-timer" style="display: none;">
+   	     <div class="timer">
+   	     	  <div class="breal-label">Break</div>
+   	     	  <div class="breal-time-left">05:00</div>
+   	     </div>
+   </div>
+
+   <button id="logout-button" style="display: none;">Logout
+   </button>
+
+   <audio id="alarm" src="alarm.mp3"></audio>
+   <script src="firebase-config.js"></script>
+   <script src="TimeApp.js"></script>
+
+
+</body>
+</html>

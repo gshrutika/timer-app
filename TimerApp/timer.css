@@ -1,0 +1,24 @@
+.controls{
+    text-align: center;
+    background-color: #282c38;
+    min-height: 100vh;
+    display: flex;
+}
+
+.timer-container {
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.button{
+      padding: .6rem 1.5rem;
+      margin: .4rem;
+      border-radius: 3px;
+      font-size:.8rem ;
+
+}
+.login{
+     background-color: black;
+     color: white;
+     font: italic;
+}
